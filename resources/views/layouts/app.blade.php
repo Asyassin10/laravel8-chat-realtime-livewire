@@ -75,11 +75,19 @@
                                 </a>
 
                             </li>
+                            <li class="nav-item ">
+                                <a id="navbar" class="nav-link -toggle" href="{{ route('users.messages') }}"
+                                    role="button" data-toggle="" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    CHAT
+                                </a>
+
+
+                            </li>
 
                             <li class="nav-item">
                                 <a class="nav-link text-danger font-weight-bold" href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
-                                                                                    document.getElementById('logout-form').submit();">
+                                                                                                document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
 
